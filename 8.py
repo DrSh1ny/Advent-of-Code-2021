@@ -121,8 +121,6 @@ def computeAnswerPart2(input):
                     digit=key
                     wholeNumber+=str(digit)
         sum+=int(wholeNumber)
-        print(entry)
-        print(changedRef)
     return sum
     
 if __name__=="__main__":
