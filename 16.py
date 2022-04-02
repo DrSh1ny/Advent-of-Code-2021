@@ -138,9 +138,8 @@ def computeAnswerPart1(input):
 def computeAnswerPart2(input):
     binString=translateHexToBin(input)
     root,binString=nextPacket(binString)
-    #or pre, fill, node in RenderTree(root):
-    #    print("%s%s" % (pre, node.name))
-    return valueOfPacket(root)
+    value=valueOfPacket(root)
+    return value
 
 if __name__=="__main__":
     input=readInput("16.txt")
